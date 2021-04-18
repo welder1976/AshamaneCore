@@ -12,7 +12,7 @@
  #define _FULL_DATABASE             "LegacyDB_world_902.00.sql"
  #define _HOTFIXES_DATABASE         "LegacyDB_hotfixes_902.00.sql"
  #define VER_COMPANYNAME_STR        "Legacy Developers"
- #define VER_LEGALCOPYRIGHT_STR     "(c)2016-2021 LegacyProject"
+ #define VER_LEGALCOPYRIGHT_STR     "(c)2021 Miracle Core Project"
  #define VER_FILEVERSION            0,0,0
  #define VER_FILEVERSION_STR        "@rev_hash@ @rev_date@ (@rev_branch@ branch)"
  #define VER_PRODUCTVERSION         VER_FILEVERSION
