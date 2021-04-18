@@ -1864,7 +1864,9 @@ void Player::RegenerateAll()
             ++regeneratedRunes;
         }
     }
-
+    
+    if (GetCommandStatus(CHEAT_POWER))
+        curValue = maxPower;
     if (m_regenTimerCount >= 2000)
     {
         // Not in combat or they have regeneration
