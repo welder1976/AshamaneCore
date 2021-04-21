@@ -2535,8 +2535,8 @@ class TC_GAME_API Player : public Unit, public GridObject<Player>
         VoidStorageItem* GetVoidStorageItem(uint8 slot) const;
         VoidStorageItem* GetVoidStorageItem(uint64 id, uint8& slot) const;
 
-        uint32 GetLastTargetedGO() { return _lastTargetedGO; }
-        void SetLastTargetedGO(uint32 lastTargetedGO) { _lastTargetedGO = lastTargetedGO; }
+        ObjectGuid::LowType GetLastTargetedGO() { return _lastTargetedGO; }
+        void SetLastTargetedGO(ObjectGuid::LowType lastTargetedGO) { _lastTargetedGO = lastTargetedGO; }
 
         float GetPersonnalXpRate() { return _PersonnalXpRate; }
         void SetPersonnalXpRate(float PersonnalXpRate);
@@ -3072,7 +3072,7 @@ class TC_GAME_API Player : public Unit, public GridObject<Player>
         uint32 _pendingBindId;
         uint32 _pendingBindTimer;
 
-        uint32 _lastTargetedGO;
+        ObjectGuid::LowType _lastTargetedGO;
         float _PersonnalXpRate;
 
         uint32 _activeCheats;
