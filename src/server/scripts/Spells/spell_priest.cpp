@@ -200,7 +200,7 @@ enum PriestSpells
     SPELL_PRIEST_VOID_TENDRILS_TRIGGER              = 127665,
     SPELL_PRIEST_VOID_TORRENT_PREVENT_REGEN         = 262173,
     SPELL_PRIEST_WEAKENED_SOUL                      = 6788,
-    SPELL_SHADOW_PRIEST_BASE_AURA                   = 137033
+    SPELL_SHADOW_PRIEST_BASE_AURA                   = 137033,
     SPELL_PRIEST_SPIRIT_OF_REDEMPTION               = 27827,
 };
 
