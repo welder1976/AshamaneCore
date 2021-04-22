@@ -307,6 +307,7 @@ struct SpellValue
     float     RadiusMod;
     int32     AuraStackAmount;
     uint32    Duration;
+	float     DurationMul;
     uint32    EffectTriggerSpell[MAX_SPELL_EFFECTS];
 };
 
@@ -324,8 +325,6 @@ struct TargetInfo
     bool   alive;
     bool   crit;
     bool   scaleAura;
-    float     DurationMul;
-
 };
 
 enum SpellState
