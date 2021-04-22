@@ -324,6 +324,8 @@ struct TargetInfo
     bool   alive;
     bool   crit;
     bool   scaleAura;
+    float     DurationMul;
+
 };
 
 enum SpellState
